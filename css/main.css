@@ -326,6 +326,13 @@ hr {
     height: 0;
 }
 
+.header-contrast {
+    border-bottom: 11px solid #39b54a;
+    display: inline-block;
+    line-height: 0.85;
+}
+
+
 
 /* ------------------------------------------------------------------- 
  * ## Lists
@@ -1465,6 +1472,11 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
+
+.header-logo .site-logo img {
+    max-width: 250%;
+}
+
 
 
 /* ------------------------------------------------------------------- 
