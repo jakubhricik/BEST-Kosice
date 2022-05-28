@@ -1035,7 +1035,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .pull-quote {
     position: relative;
-    padding: 2.1rem 3rem 2.1rem 0px;
+    padding: 2.1rem 3rem 2.1rem 0;
 }
 
 .pull-quote:before, .pull-quote:after {
@@ -1113,7 +1113,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .stats-tabs li a em {
     display: block;
-    margin: .6rem 0 0 0;
+    margin: .6rem 0 0;
     font-size: 1.4rem;
     font-family: "montserrat-regular", sans-serif;
     color: #828282;
@@ -1165,7 +1165,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     font-size: 1.1rem;
     line-height: 1;
     background: #000000;
-    padding: .6rem .6rem;
+    padding: .6rem;
     border-radius: 3px;
 }
 
@@ -1388,7 +1388,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     list-style: none;
     width: 100%;
     padding: 0;
-    margin: 3rem 0 0 0;
+    margin: 3rem 0 0;
     text-align: center;
     position: absolute;
     top: 100%;
@@ -1464,7 +1464,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .header-logo a {
     display: block;
-    margin: 9px 0 0 0;
+    margin: 9px 0 0;
     padding: 0;
     outline: 0;
     border: none;
@@ -1542,8 +1542,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .header-nav__list {
     font-family: "montserrat-regular", sans-serif;
     font-size: 1.8rem;
-    margin: 3.6rem 0 3rem 0;
-    padding: 0 0 1.8rem 0;
+    margin: 3.6rem 0 3rem;
+    padding: 0 0 1.8rem;
     list-style: none;
 }
 
@@ -2120,7 +2120,7 @@ html.no-csstransitions .home-content__main {
     .home-content__buttons .btn {
         display: block;
         width: 70%;
-        margin: 1.5rem 0 0 0;
+        margin: 1.5rem 0 0;
     }
     .home-social {
         right: 4rem;
@@ -2177,7 +2177,7 @@ html.no-csstransitions .home-content__main {
     }
     .home-content__buttons .btn {
         width: auto;
-        margin: 1.5rem 0 0 0;
+        margin: 1.5rem 0 0;
     }
     .home-social {
         display: none;
@@ -2505,7 +2505,7 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 .s-works {
     background: #FFFFFF;
-    padding: 0 0 15rem 0;
+    padding: 0 0 15rem;
     min-height: 800px;
     position: relative;
 }
@@ -2617,7 +2617,7 @@ html.no-csstransitions .home-content__main {
     color: #FFFFFF;
     text-transform: uppercase;
     letter-spacing: .2rem;
-    margin: 0 0 .3rem 0;
+    margin: 0 0 .3rem;
 }
 
 .item-folio__cat {
@@ -2811,14 +2811,14 @@ html.no-csstransitions .home-content__main {
 }
 
 .clients-testimonials .testimonials__slide {
-    padding: 0 0 3rem 0;
+    padding: 0 0 3rem;
 }
 
 .clients-testimonials .testimonials__avatar {
     height: 8.4rem;
     width: 8.4rem;
     border-radius: 50%;
-    margin: 0 auto 1.2rem auto;
+    margin: 0 auto 1.2rem;
 }
 
 .clients-testimonials .testimonials__name, 
@@ -3389,7 +3389,7 @@ footer .row {
 
 .footer-logo {
     display: block;
-    margin: -.6rem 0 3.6rem 0;
+    margin: -.6rem 0 3.6rem;
     padding: 0;
     outline: 0;
     border: none;
@@ -3588,7 +3588,7 @@ footer .row {
 
 @media only screen and (max-width: 500px) {
     .footer-subscribe #mc-form input[type="email"] {
-        padding: 1.2rem 20px 1.2rem;
+        padding: 1.2rem 20px;
         background: rgba(0, 0, 0, 0.1);
         text-align: center;
     }
@@ -3610,6 +3610,3 @@ footer .row {
         padding-left: 0;
     }
 }
-
-
-/*# sourceMappingURL=main.css.map */
