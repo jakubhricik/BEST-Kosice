@@ -59,6 +59,8 @@
  * # base style overrides
  *
  * ------------------------------------------------------------------- */
+ @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
 html {
     font-size: 10px;
 }
@@ -75,7 +77,7 @@ html, body {
 
 body {
     background: #111111;
-    font-family: "lora-regular", serif;
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 1.7rem;
     font-style: normal;
     font-weight: normal;
@@ -208,11 +210,14 @@ em, i, strong, b {
 }
 
 em, i {
-    font-family: "lora-italic", serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: italic;
+    font-weight: 300;
 }
 
 strong, b {
-    font-family: "lora-bold", serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
 }
 
 small {
@@ -264,7 +269,8 @@ blockquote cite a, blockquote cite a:visited {
 }
 
 abbr {
-    font-family: "lora-bold", serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
     font-variant: small-caps;
     text-transform: lowercase;
     letter-spacing: .05rem;
@@ -432,7 +438,8 @@ table {
     border-width: 0;
     width: 100%;
     max-width: 100%;
-    font-family: "lora-regular", serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: normal;
 }
 
 th, td {
@@ -1221,14 +1228,14 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  * ------------------------------------------------------------------- */
 .display-1 {
     font-family: "montserrat-medium", sans-serif;
-    font-size: 7.8rem;
+    font-size: 6.4rem;
     line-height: 1.25;
     color: #000000;
     margin-top: 0;
 }
 
 .display-1--light {
-    color: #FFFFFF;
+    color: #000;
 }
 
 .display-2 {
@@ -1240,7 +1247,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .display-2--light {
-    color: #FFFFFF;
+    color: #000;
 }
 
 .subhead + .display-2 {
@@ -1248,7 +1255,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .subhead {
-    font-family: "montserrat-bold", sans-serif;
+    font-family: "montserrat-regular", sans-serif;
     font-size: 1.7rem;
     line-height: 1.333;
     text-transform: uppercase;
@@ -2212,8 +2219,8 @@ html.no-csstransitions .home-content__main {
 .s-about {
     padding-top: 16.2rem;
     padding-bottom: 9rem;
-    background-color: #39b54a;
-    color: #010507;
+    background-color: #f8f8f8;
+    color: #686868;
     position: relative;
 }
 
@@ -2253,7 +2260,7 @@ html.no-csstransitions .home-content__main {
     font-family: "montserrat-bold", sans-serif;
     font-size: 8.4rem;
     line-height: 1;
-    color: #FFFFFF;
+    color: #39b54a;
     position: relative;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -2803,7 +2810,8 @@ html.no-csstransitions .home-content__main {
 }
 
 .clients-testimonials .testimonials p {
-    font-family: "lora-regular", serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: normal;
     font-size: 3rem;
     line-height: 1.8;
     color: #555555;
